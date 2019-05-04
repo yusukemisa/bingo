@@ -66,6 +66,7 @@ func print(w io.Writer, b bingoMatrix) {
 
 	fmt.Fprintf(w, " ------------------------ \n")
 }
+
 func (b *regularBingo) run() {
 	print(b.w, b.createBingoMatrix())
 }
